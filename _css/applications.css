@@ -1,0 +1,62 @@
+nav li:nth-child(4) { font-weight: 600; }
+
+.banner-img {
+	flex: 0 1 auto;
+	position: relative;
+	top: -70px;
+	max-width: 1240px;
+	max-height: 750px;
+}
+
+@media screen and (min-width: 1240px) {
+	.section, footer, #collapsable-menu {
+		max-width: 1240px;
+		margin: 0 auto;
+	}
+	.banner-cont { background: white; }
+}
+
+#location-map {
+	width: 100%;
+/*	min-width: 600px;*/
+	display: block;
+}
+#international-chirp {
+	flex-direction: column;
+}
+#international-chirp a{
+	text-decoration: underline;
+}
+#international-chirp p {
+	line-height: 20px;
+}
+#international-chirp p:nth-child(3) {
+	margin-bottom: 14px;
+}
+#international-chirp p:nth-child(4) {
+	margin-bottom: 35px;
+}
+#example-applications {
+	margin-top: 0;
+}
+#example-applications >li {
+	margin: 5px;
+}
+
+.example-img img {
+	display: inline-block;
+    vertical-align: middle;
+	max-width: 90%;
+}
+.tabbed-content p {
+	text-align: justify;
+}
+
+#burbo-example-cont {
+	text-align: center;
+}
+
+#burbo-example-cont img {
+	margin-bottom: 10px;
+}
+

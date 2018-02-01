@@ -1,0 +1,61 @@
+nav li:nth-child(3) { font-weight: 600; }
+
+/*
+@media screen and (min-width: 1200px) {
+	.section, footer, #collapsable-menu {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.banner-cont { background: white; }
+}
+*/
+
+#background-intro {
+	justify-content: flex-start;
+}
+
+#examples a {
+	text-decoration: underline;
+}
+.section p {
+	text-align: justify;
+}
+
+.section-rightpanel div {
+	max-width: 95%;
+}
+.background-img {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.background-img img {
+	max-width: 100%;
+}
+
+figcaption span {
+	font-weight: 500;
+}
+
+#data-example, #china-photo {
+	clear: right;
+	width: 100%;
+}
+
+#data-example figcaption {
+	max-width: 580px;
+	margin-left: 10px;
+	text-align: justify;
+}
+
+#data-example {
+	text-align: center;
+}
+
+#china-photo { text-align: center;}
+
+#tdchirp div p {
+	clear: both;
+}

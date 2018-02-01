@@ -1,0 +1,43 @@
+nav li:nth-child(6) { font-weight: 600; }
+
+.banner-img {
+	position: relative;
+	width: 1250px;
+	max-height: 800px;
+}
+
+@media screen and (min-width: 1250px) {
+	.section, footer, #collapsable-menu {
+		max-width: 1250px;
+		margin: 0 auto;
+	}
+	.banner-cont { background: white; }
+}
+
+#main-contacts p {
+	color: black;
+}
+
+#main-contacts div {
+	width: 80%;
+	max-width: 650px;
+	padding: 0 20px;
+	margin-top: 18px;
+	background-color: white;
+}
+
+#main-contacts a { text-decoration: underline; }
+
+#main-contacts div p:nth-child(even) { 
+	text-indent: 15px;
+	line-height: 1;
+}
+
+#chirp-team { display: block; }
+
+#team-list { list-style: none; }
+
+#team-list li {
+	margin-bottom: 6px;
+	text-decoration: underline;
+}
