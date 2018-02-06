@@ -1,0 +1,26 @@
+#!/bin/bash
+
+ps=global_map.ps
+
+pcol=darkblue
+
+gmtset BASEMAP_TYPE plain
+gmtset FRAME_PEN 0.75p
+
+pscoast -R-170/190/-60/90 -JX9id/4id -Df -Glightgrey -A6000 -Wlightgrey -K > $ps
+psxy <localities.ll -J -R -Si0.2c -: -G$pcol -W$pcol -O -K >> $ps
+# psxy <<END -J -R -W0.5p -O -K >> $ps
+# -7.7 49.4
+# -7.7 59
+# 3.2 59
+# 3.2 49.4
+# -7.7 49.4
+# END
+
+pscoast -R-7.7/3.2/49.4/59 -B -JX2id/2.5id -Di -Glightgrey -A100000 -Wlightgrey -S254/254/254 -K -O -X0.5 -Y0 >> $ps
+psxy <localities.ll -J -R -Si0.2c -: -G$pcol -W$pcol -O -K >> $ps
+
+pstopdf $ps
+\rm $ps
+open global_map.pdf
+
