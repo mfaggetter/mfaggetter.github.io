@@ -41,6 +41,6 @@ function clicked() {
 }
 
 // Enable autoscrolling
-var scroller = setInterval(scroll, 4000);
+var scroller = setInterval(scroll, 6000);
 
 
