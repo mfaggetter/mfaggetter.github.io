@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>3D Chirp - Applications</title>
+	<link rel="shortcut icon" href="./images/favicon.jpg" />
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
+	<link href="./css/applications.css" rel="stylesheet" type="text/css" />
+	<script src="./js/jquery-3.2.1.js" type="text/javascript"></script>
+	<script src="./js/header-footer.js"></script>
+	<script src="./js/tab-fn.js"></script>
+</head>
+<body class="body-front">
+<nav id="primaryMenu"></nav>
+<section class="section top-section" id="applications">
+	<h1> 3D Chirp Applications </h1>
+</section>
+<div class="banner-cont">
+	<img src="./images/banners/banner-examples.jpg" alt="Ldocks-2016 image" class="banner-img">
+</div>
+<!--
+<section class="section">
+	<div class="section-leftpanel">
+		<h2></h2>
+	</div>
+	<div class="section-rightpanel">
+		<p>With centimetre-scale resolution, the 3D Chirp can provide invaluable data and has proven to be an essential component of many shallow subsurface mapping and marine surveying projects.
+		A range of global </p>
+	</div>
+</section>
+-->
+<section class="section">
+	<div class="section-leftpanel">
+		<h2> 3D Chirp research and commercial projects across the globe</h2>
+	</div>
+	<div class="section-rightpanel" id="international-chirp">
+		<p>High resolution seismic reflection data sets have been acquired internationally for both academic and commercial purposes in many different offshore environments.<br>This includes:</p>
+		<ul id="example-applications" class="dashed">
+			<li>Buried objects, UXO and archaeological target imaging;</li>
+			<li>Pre- and post-installation offshore infrastructure/geoengineering site surveys;</li>
+			<li>Inshore and near-shore geohazard imaging and characterisation;</li>
+			<li>Reservoir analogue characterization.</li>
+		</ul>
+		<p>Below is a map of project sites and locations where 3D Chirp data have been acquired so far:</p>
+		<div>
+			<img id="location-map" src="./location_map/global_map.png">
+		</div>
+	</div>
+</section>
+<section class="section">
+	<div role="article" class="section-leftpanel">
+		<h2>Case study examples: 3D imaging at different scales</h2>
+	</div>
+	<div class="section-rightpanel tabs">
+		<div class="tabbed-nav">
+			<button class="tab-button" id="button-geology">Geological/Geohazard Mapping</button>
+			<button class="tab-button" id="button-targets">Small Buried Targets/UXO</button>
+			<button class="tab-button" id="button-archeology">Archaeology</button>
+			<button class="tab-button" id="button-decimetre">Decimetre-Scale Subsurface Imaging</button>
+			<button class="tab-button" id="button-linear">Linear Features</button>
+		</div>
+		<div id="tab-textbox">
+				<div id="geology" class='tabbed-content unselected'>
+					<h3> Larger-Scale Geological Studies </h3>
+					<div class="seis-example">
+						<h4>Finneidfjord, Norway</h4>
+						<p>A landslide in 1996 near Finneidfjord, Norway initiated a submarine landslide. Failure initiated offshore but propagated inland by 100-150 m causing extensive damage to a local highway. Approximately 1 x 106 m<sup>3</sup> of sediment was displaced in total, producing a deposit 0.3 – 0.4 m thick.</p>
+						<p>A large multidisciplinary data set was acquired to probe the morphology and internal structure of the landslide and evaluate the cause of the complex failure. This included 2D and 3D seismic data along with high-resolution swath bathymetry and multiple sediment cores up to 14 m depth with in situ and laboratory measurements of rock properties.</p>
+						<p>The 3D Chirp was used to image a targeted 150 m x 1100 m area, providing exceptional delineation of high-amplitude, composite reflections for water depths of 50 – 60 m and very minimal processing. The data were also pre-stack Kirchhoff time migrated onto a 12.5 x 12.5 cm mid- point grid using the frequency-approximated algorithm of <a href="publications.htm">Vardy and Henstock (2010)</a> (Figure 1), revealing a geologically complex weak layer thought to influence local slope stability.<p>
+						<p>Inversion of these broadband seismic data allowed the calculation of remote physical properties (using acoustic quality factor, Q). This permitted a depth and spatial assessment of the relationship between morphology and grain size that was correlated against the high-resolution geotechnical data, identifying the slide plane as a weak, laminated, clay-rich bed.</p>
+						<div class="example-img">
+							<img src="./images/examples/Finneidfjord1.png" alt="Finneidfjord" width="900px">
+							<figcaption><span>Figure 1</span>: Annotated example data set from a shallow geohazard case study near Finneidfjord, Norway (from <a href="publications.htm">Vardy et al, 2012</a>). Data are pre-stack Kirchhoff time migrated and reveals regionally-continuous stratified beds. A weak, clay-rich bed was identified as the primary failure plane. </figcaption>
+						</div>
+					</div>
+					<div class="seis-example">
+						<h4>Lake Windermere, UK</h4>
+						<p> Windermere is a glacially overdeepened lake located in the southeastern Lake District, UK. Using the 3D Chirp sub-bottom profiler, mass movement deposits related to the Younger Dryas (YD) are imaged, documenting their internal structure and interaction with preexisting deposits in unprecedented detail. Three distinct flow events are identified and mapped throughout the 3D survey area. Package structures and seismic attributes classify them as: a small (total volume of c. 1500 m<sup>3</sup>) debris flow containing deformed translated blocks; a large (inferred total volume of c. 500,000 m<sup>3</sup>), homogeneous fine-grained mass flow deposit; and a debris flow (inferred total volume of c. 60,000 m<sup>3</sup>) containing small (c. 8.0 x 2.0 m) deformed translated blocks. </p>
+						<div class="example-img">
+							<img src="./images/examples/lake-wind.png" alt="Lake Windermere" width="900px">
+							<figcaption><span>Figure 2</span>: Panels a) and b) show rendered cutaway voxel volume of decimetre-resolution 3D seismic volume. Panels c) through f) show uninterpreted and interpreted, detailed, vertical sections showing acoustic character of three flow facies. Results presented in <a href="publications.htm">Vardy et al (2010)</a>. </figcaption>
+						</div>
+					</div>
+				</div>	
+				<div id="buried-targets" class='tabbed-content unselected'>
+					<h3> Small Buried Targets/UXO </h3>
+					<div class="seis-example">
+						<h4>Buried Object/UXO detection</h4>
+						<p>An atidal basin on the southern coast of England was surveyed to map bedrock protrusions and the size and distribution of buried objects. The study area of 150 x 250 m provided a series of unique challenges, including a large number of discrete objects ranging from tens of centimeters to several meters in size, buried in a thin veneer 0.5 to 1.5 m of unconsolidated silt overlaying a flat bedrock surface that showed high acoustic contrast and short wavelength roughness. By comparing comprehensive post-survey dredging of the entire site with a prestack time-migrated 3D volume, it is possible to confirm a 100% detection rate for all discrete buried objects larger than 0.30 x 0.30 m in an illuminated area.</p>
+						<p>Results presented in <a href="#">Vardy et al (2008)</a>. A movie of the data volume in Figure 1 can be downloaded <a href="./images/examples/small-object-detection-mov.avi" target="_blank">here</a>.<p>
+						<div class="example-img">
+							<img src="./images/examples/small-object-detection_colour.png" alt="small-object-dection image" width="800px" >
+							<figcaption><span>Figure 1</span>: (a) Horizon slice and (b-c) vertical slices through acoustic target, together with (d) location map, and (e) photo of the wooden pole (1.80 x 0.13 x 0.10 m) and attached metal sheet (0.40 x 0.30 m) found during dredging. Vertical exaggeration 4:1.</figcaption>
+						</div>
+						<div class="example-img">
+							<img src="./images/examples/uxo-3panel.png" alt="small-object-dection image" width="850px" >
+							<figcaption><span>Figure 2</span>: Mapped seabed and bedrock layers identified from the 3D Chirp volume, which show fine detail of centimeter-scale features. A depression is clearly visisble in both the seabed and bedrock layers corresponding to the buried wooden pole detailed in Figure 1.</figcaption>
+						</div>
+					</div>
+				</div>
+				<div id="decimetre" class='tabbed-content unselected'>
+					<h3> Decimetre-Scale Subsurface Imaging </h3>
+					<p>The 3D Chirp was used to survey parts of the UK shelf in water depths ranging from 5 to 25m depth in sands and gravelly sands.</p>
+					<p>The aim was to image with a consistent penetration to depths to at least 10m below the seabed and to locate all objects larger than 0.25m across to determine their size, depth of burial. The absolute position of each object was also determined to an accuracy of ± 0.1 m using the high accuracy RTK-GPS system built into the 3D Chirp system.
+					This research survey was undertaken ahead of a windfarm installation and focused upon proposed turbine locations (see Figure 1) and other inter-array cable sites.The 3D Chirp was also used alongside magnetometer data to investigate buried UXO targets. </p>
+					<p> This project demonstrates the capability of the 3D Chirp in the industry sector and its success operating in very low energy protected environments (e.g. harbour basins, lakes or the upper parts of estuaries) to penetrate through finer grained, muddy, substrates. In addition, the unique hydrophone configuration and custom processing algorithms enables full azimuth data and effective 3D migration for object detection.</p>
+					<div class="example-img" id="burbo-example-cont">
+						<img src="./images/burbo3D-01.jpg" alt="burbo3D" width="400px">
+						<img src="./images/examples/burbo.gif" alt="burbo3D" width="400px">
+					</div>
+					<figcaption><span>Figure 1</span>: A 3D migrated seismic volume with bathymetry aquired over a proposed wind turbine installation site.</figcaption>
+				</div>
+				<div id="linear-features" class='tabbed-content unselected'>
+				<h3> Linear Features </h3>
+					<p>The 3D Chirp has the capability to image complete sub-surface structures. Full, stacked 3D seismic volumes can be generated, normally within 24 hours, using custom in-house sofware to process data incrementally in the field. 3D data has many advantages over individual survey lines.</p>
+					<p>By sampling the full wavefield, 3D methods produce more coherent images allowing for more intuitive interpretation of complex subsurface geometries and improved post-processing and quality control. Combining horizontal time slices with vertical cross sections it is possible to map the full extent of linear features such as pipes and cables and laterally spanning geological features such as sediment or gas horizons (Figure 1).</p>
+					<div class="example-img">
+						<img src="./images/examples/soton-pipeline.jpg" alt="soton-pipeline img" width="600px">
+						<figcaption><span>Figure 1</span>: A cropped 3D volume acquired in Southampton Water showing both horizontal and vertical slices. A trenched pipe is identified by a cluster of diffrations below the seabed and can be traced throughout the 3D seismic data. A high amplitude reflection depicts the top of a gas front within a range of small-scale, dipping sedimentary layers.</figcaption>
+					</div>
+						<div class="example-img">
+							<img src="./images/examples/HV4_cables.png" alt="soton-pipeline img" width="700px">
+							<figcaption><span>Figure 2</span>: Caption missing.</figcaption>
+						</div>
+				</div>	
+				<div id="archeology" class='tabbed-content unselected'>
+					<h3> Archaeology </h3>
+					<div class="seis-example">
+						<h4>The Grace Dieu Shipwreck</h4>
+						<p>The remains of Henry V's flagship, the Grace Dieu (1418), currently lie buried within the inter-tidal sediments of the River Hamble (S. England). Previous archaeological investigations were hindered by difficult excavation conditions resulting in a poor understanding of the dimensions, shape and degradation state of the hull's deeper structure.</p>
+						<div class="example-img" style="text-align: center;">
+							<img src="./images/examples/GraceDieu2.png" width="300px" alt="Grace-Deiu2">
+						</div>
+						<p>For this case study the 3D Chirp sub-bottom profiler was used to image, characterize and reconstruct the buried remains of this vessel. The accurate navigation and high-resolution data that were acquired enabled the construction of a full 3D image of the site that not only identified the remains of the wooden hull, but also features buried within it.</p>
+						<div class="example-img" style="text-align: center;">
+							<img src="./images/examples/GraceDieu.gif" width="300px" alt="Grace-Deiu2">
+						</div>
+						<p>In addition, the degradation state of these buried wooden remains were investigated by calculating reflection coefficients while a hypothetical larger reconstruction of the Grace Dieu's hull was achieved, through the use of the ShipShape ship design software package.</p>
+						<p>For more information see Plets et al. (2009); a PDF is available <a href="pdfs/Pletsetal-2009.pdf">here</a>.</p>
+						<div class="example-img">
+							<img src="./images/examples/GraceDieu3.png" width="600px" alt="Grace-Deiu3">
+							<figcaption><span>Figure 1</span>: Chirp seismic cross-section perpendicular to the length of the boat. The seismic anomaly associated with the hull of the wreck can be easily identified within the surrounding geology.</figcaption>
+						</div>
+						<div class="example-img">
+							<img src="./images/examples/GraceDieu.jpg" alt="Grace-Deiu">
+							<figcaption><span>Figure 2</span>: 3D reconstruction of the buried remains of the Grace Dieu (a through c) with a 2x vertical exaggeration, and (d through f) with a 1:1 scale. Results presented in <a href="publications.htm">Plets et al (2009)</a>. A stereoscopic movie of the data shown in this figure can be downloaded <a href="./images/examples/GraceDieu-mov.avi" target="_blank">here</a>.
+							 </figcaption>
+						</div>
+
+					</div>
+				</div>
+				
+			</div>
+	</div>
+</section>
+<!--
+<section class="section" id="development">
+	<div role="article" class="section-leftpanel">
+		<h2>3D Chirp in development</h2>
+	</div>
+	<div class="section-rightpanel tabs">
+		<div class="tabbed-nav">
+			<button class="tab-button" id="button-inversion">Inversion and Sediment characterisation</button>
+			<button class="tab-button" id="button-timelapse">Time-lapse (4D) Chirp</button>
+			<button class="tab-button" id="button-advnav">Advanced Navigation</button>
+		</div>
+		<div id="tab-textbox">
+			<div id="adv-inversion" class='tabbed-content unselected'>
+				<h3>Inversion of Ultra High-Frequency (UHF) Data</h3>
+				<div class="seis-example">
+					<h4>Heading</h4>
+					<p>Content &amp; Images</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+-->
+<footer>
+</footer>
+</body>
+</html>
