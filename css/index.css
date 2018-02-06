@@ -401,7 +401,7 @@ nav li:nth-child(1) { font-weight: 600; }
 
 .slideshow-thumbnails img { height: inherit; }
 
-/* Initialise first image 
+/* Initialise first image */
 .slides:first-of-type { display: block; }
 .slideshow-thumbnails:first-of-type {opacity: 1;}
 
