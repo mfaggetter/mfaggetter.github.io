@@ -30,7 +30,7 @@ nav li:nth-child(6) { font-weight: 600; }
 }
 
 #main-contacts div p:nth-child(even) { 
-	text-indent: 75px;
+	text-align: left;
 	line-height: 1;
 }
 

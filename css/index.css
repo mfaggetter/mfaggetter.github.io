@@ -338,6 +338,10 @@ nav li:nth-child(1) { font-weight: 600; }
 	max-height: 430px;
 }
 
+.slides:first-of-type{
+	display: block;
+}
+
 #navigation-border {
 	width: 100%;
 	padding: 1.5px;

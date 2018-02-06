@@ -42,3 +42,4 @@ function clicked() {
 
 // Enable autoscrolling
 var scroller = setInterval(scroll, 5000);
+
