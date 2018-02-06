@@ -342,7 +342,7 @@ nav li:nth-child(1) { font-weight: 600; }
 
 .slideshow-navigation {
 	height: 40px;
-	overflow-x: scroll;
+	overflow-x: hidden;
 	overflow-y: hidden;
 	margin-bottom: 10px;
 	margin-top: 10px;
