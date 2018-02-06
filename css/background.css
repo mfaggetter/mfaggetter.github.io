@@ -11,7 +11,10 @@ nav li:nth-child(3) { font-weight: 600; }
 */
 
 .section p { text-align: justify; }
-.section-rightpanel div { max-width: 95%; }
+.section-rightpanel {
+	margin-right: 0px;
+}
+.section-rightpanel div { max-width: 97%; }
 #tdchirp div p { clear: both; }
 
 .background-img img { max-width: 100%; }

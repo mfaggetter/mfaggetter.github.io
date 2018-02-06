@@ -186,11 +186,12 @@ figcaption span {
 	cursor: pointer;
 }
 .menu-button {
+	border-bottom: 1px solid black;
 	width: 100%;
 	display: none;
 	font-size: 16px;
 	text-align: center;
-	padding: 5px;
+	padding: 9px;
 	background: rgba(107,160,185,1);
 	background: rgba(210,210,210,1);
 }
@@ -575,9 +576,8 @@ button.clicked {
 	color: lightblue;
 	cursor: pointer;
 }
-.tabs p, .tabs figcaption {
-	padding-left: 40px;
-	padding-right: 40px;
+.tabs figcaption {
+	text-align: justify;
 }
 .tabs img {
 	text-align: center;
