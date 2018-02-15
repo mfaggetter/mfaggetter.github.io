@@ -4,7 +4,7 @@ nav li:nth-child(1) { font-weight: 600; }
 #home {
 	overflow: hidden;
 	text-align: center;
-	min-height: 340px;
+/*	min-height: 340px;*/
 	max-height: 380px;
 	
 	/*	Flex-cont: column and item align-center*/
