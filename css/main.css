@@ -675,6 +675,11 @@ footer {
 	text-align: center;
 	line-height: 0.5;
 }
+
+#footer-top {
+	margin-bottom: 10px;
+}
+
 .footer-card .title {
 	padding-top: 16px;
 	margin-bottom: 15px;

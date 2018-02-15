@@ -99,6 +99,7 @@ nav li:nth-child(1) { font-weight: 600; }
 }
 
 #index-introduction {
+	max-width: 100%;
 	/*Flex-cont: defaults */
 	display: flex;
     display: -webkit-box;
