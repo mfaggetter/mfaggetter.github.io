@@ -109,6 +109,8 @@ figcaption span {
 	flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+	-webkit-box-lines: multiple;
+	-moz-box-lines: multiple;
 	
 	justify-content: center;
     -webkit-box-pack: center;
@@ -151,6 +153,8 @@ figcaption span {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -288,6 +292,8 @@ input[type=checkbox]:checked ~ #collapsable-menu{
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 	
 	justify-content: center;
     -webkit-box-pack: center;
@@ -342,6 +348,8 @@ body .section:first-of-type {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -427,6 +435,8 @@ body .section:first-of-type {
 	flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+	-webkit-box-lines: multiple;
+	-moz-box-lines: multiple;
 	
 	justify-content: center;
     -webkit-box-pack: center;
@@ -508,6 +518,8 @@ div.tabbed-nav {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+	-webkit-box-lines: multiple;
+	-moz-box-lines: multiple;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -615,6 +627,8 @@ footer {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -656,6 +670,8 @@ footer {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
 	justify-content: space-around;
 	-webkit-box-pack: justify;
@@ -719,6 +735,8 @@ footer p {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
 	justify-content: space-around;
 	-webkit-box-pack: justify;

@@ -25,6 +25,8 @@ nav li:nth-child(1) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -121,6 +123,8 @@ nav li:nth-child(1) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -160,6 +164,8 @@ nav li:nth-child(1) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -230,6 +236,8 @@ nav li:nth-child(1) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
@@ -318,6 +326,8 @@ nav li:nth-child(1) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: center;
     -webkit-box-pack: center;
@@ -377,6 +387,8 @@ nav li:nth-child(1) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: center;
     -webkit-box-pack: center;

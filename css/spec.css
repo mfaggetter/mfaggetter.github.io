@@ -32,6 +32,8 @@ nav li:nth-child(2) { font-weight: 600; }
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+	-webkit-box-lines: multiple;
+	-moz-box-lines: multiple;
 
 	justify-content: space-around;
 	-webkit-box-pack: justify;
@@ -75,6 +77,8 @@ nav li:nth-child(2) { font-weight: 600; }
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
 
     justify-content: flex-start;
     -webkit-box-pack: start;
