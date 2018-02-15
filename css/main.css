@@ -678,6 +678,8 @@ footer {
 
 #footer-top {
 	margin-bottom: 10px;
+	text-align: center;
+	display: block;
 }
 
 .footer-card .title {
