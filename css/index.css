@@ -265,6 +265,10 @@ nav li:nth-child(1) { font-weight: 600; }
     -ms-flex-align: center;
 }
 
+@media screen and (max-width: 600px) {
+	#burbo-cont { width: 85%; }
+}
+
 #burbo-cont img { width: inherit; }
 
 @media screen and (max-width: 1250px) {
@@ -276,7 +280,7 @@ nav li:nth-child(1) { font-weight: 600; }
 	
 	/*	CSS for all other browsers */
 	#burbo-cont {
-		max-width: 400px;
+/*		max-width: 400px;*/
 		margin: 10px 0px;
 		
 		/*Flex-item: self align-center*/
@@ -290,6 +294,12 @@ nav li:nth-child(1) { font-weight: 600; }
 		align-self: center;
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
+		
+		justify-content: center;
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
 
 		order: 0;
 		-webkit-box-ordinal-group: 1;
