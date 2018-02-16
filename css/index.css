@@ -101,6 +101,7 @@ nav li:nth-child(1) { font-weight: 600; }
 }
 
 #index-introduction {
+	max-width: 850px;
 	/*Flex-cont: defaults */
 	display: flex;
     display: -webkit-box;
