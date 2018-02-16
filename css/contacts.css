@@ -19,7 +19,7 @@ nav li:nth-child(6) { font-weight: 600; }
 #main-contacts div {
 	width: 80%;
 	max-width: 650px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 #main-contacts p { color: black; }

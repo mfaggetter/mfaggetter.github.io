@@ -11,6 +11,12 @@ nav li:nth-child(3) { font-weight: 600; }
 	height: 800px;
 }
 
+/*
+.section-leftpanel:first-of-type {
+	width: 10px;
+}
+*/
+
 @media screen and (min-width: 1230px) {
 	.section, footer, #collapsable-menu {
 		max-width: 1230px;

@@ -17,7 +17,7 @@ nav li:nth-child(4) { font-weight: 600; }
 
 #location-map {
 	width: 100%;
-	max-width: 700px;
+	max-width: 830px;
 	display: block;
 }
 #international-chirp {
