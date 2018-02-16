@@ -55,8 +55,9 @@ nav li:nth-child(2) { font-weight: 600; }
 	background: white;
 	margin-top: 5px;
 	border: 2px solid rgba(130,130,130, 0.5);
-	max-width: 46%;
-	min-width: 300px;
+
+	max-width: 45%;
+	min-width: 500px;
 
 	/*Flex-cont: align items-center */
 	display: flex;
@@ -134,7 +135,7 @@ nav li:nth-child(2) { font-weight: 600; }
 		-ms-flex-align: center;
 	}
 	.wireframe-img-cont {
-		min-width: inherit;
+		min-width: 85%;
 		flex: 0 1 auto;
 		-webkit-box-flex: 0;
 		-moz-box-flex: 0;
