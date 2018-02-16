@@ -812,6 +812,8 @@ footer p {
 
 #company-logos div { margin: 10px 0px; }
 
+#company-logos div:last-of-type { margin-left: 20px; }
+
 #footer-bottom {
 	padding-top: 15px;
 	padding-bottom: 5px;
