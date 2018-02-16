@@ -95,10 +95,6 @@ nav li:nth-child(1) { font-weight: 600; }
 
 				/* -- Main-page Introduction and Links -- */
 
-.section-rightpanel {
-	max-width: 100%;
-}
-
 @media screen and (max-width: 910px) {
 	#index-content { padding-top: 0px; }
 	h2 { text-align: center; }
