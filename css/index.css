@@ -276,7 +276,6 @@ nav li:nth-child(1) { font-weight: 600; }
 	
 	/*	CSS for all other browsers */
 	#burbo-cont {
-		width: 90%;
 		max-width: 400px;
 		margin: 10px 0px;
 		
