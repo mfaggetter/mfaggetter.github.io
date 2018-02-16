@@ -57,7 +57,7 @@ nav li:nth-child(2) { font-weight: 600; }
 	border: 2px solid rgba(130,130,130, 0.5);
 
 	max-width: 45%;
-	min-width: 500px;
+	min-width: 400px;
 
 	/*Flex-cont: align items-center */
 	display: flex;
@@ -120,6 +120,8 @@ nav li:nth-child(2) { font-weight: 600; }
 
 @media screen and (max-width: 700px) {
 	#double-image-cont {
+		width: 100%;
+		min-width: 400px;
 		margin: 0px;
 		
 		flex-direction: column;
@@ -135,7 +137,7 @@ nav li:nth-child(2) { font-weight: 600; }
 		-ms-flex-align: center;
 	}
 	.wireframe-img-cont {
-		min-width: 85%;
+		min-width: inherit;
 		flex: 0 1 auto;
 		-webkit-box-flex: 0;
 		-moz-box-flex: 0;
