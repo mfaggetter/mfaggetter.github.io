@@ -100,11 +100,15 @@ nav li:nth-child(1) { font-weight: 600; }
 	h2 { text-align: center; }
 }
 
-#index-content .section-rightpanel div:first-of-type {
+#index-content .section-rightpanel div {
 	max-width: inherit;
 }
 
-#index-content .section-rightpanel div:first-of-type {
+#index-content .section-rightpanel div {
+	max-width: inherit;
+}
+
+#index-content .section-rightpanel div div div p {
 	max-width: inherit;
 }
 
