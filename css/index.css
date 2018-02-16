@@ -101,7 +101,7 @@ nav li:nth-child(1) { font-weight: 600; }
 }
 
 
-#index-content .section-rightpanel {
+#index-content .section-rightpanel div p {
 	max-width: 850px;
 }
 
