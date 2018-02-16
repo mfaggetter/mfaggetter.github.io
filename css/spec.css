@@ -97,11 +97,11 @@ nav li:nth-child(2) { font-weight: 600; }
     -ms-flex-align: center;
 	
 	/* Flex-item: flex: 1 0 700px */
-	flex: 1 0 auto;
+	flex: 1 0 700px;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -webkit-flex: 1 0 auto;
-    -ms-flex: 1 0 auto;
+    -webkit-flex: 1 0 700px;
+    -ms-flex: 1 0 700px;
 	
 	align-self: auto;
     -webkit-align-self: auto;
@@ -232,12 +232,11 @@ table li {
 	margin: 0;
 	
 	/*Flex-item: 1 1 600px*/
-	min-width: 600px;
-	flex: 1 1 auto;
+	flex: 1 1 600px;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 600px;
+    -ms-flex: 1 1 600px;
 	
 	align-self: auto;
     -webkit-align-self: auto;
