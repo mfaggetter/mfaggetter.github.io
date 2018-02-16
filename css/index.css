@@ -100,9 +100,12 @@ nav li:nth-child(1) { font-weight: 600; }
 	h2 { text-align: center; }
 }
 
+#index-content .section-rightpanel div:first-of-type {
+	max-width: inherit;
+}
 
-#index-content .section-rightpanel div p {
-	max-width: 850px;
+#index-content .section-rightpanel div:first-of-type {
+	max-width: inherit;
 }
 
 #index-introduction {	
@@ -285,6 +288,9 @@ nav li:nth-child(1) { font-weight: 600; }
 		-ms-flex-order: 0;
 	}
 	#index-introduction {
+		
+		max-width: 600px;
+		
 		flex-direction: column;
 		-webkit-box-direction: normal;
 		-moz-box-direction: normal;
