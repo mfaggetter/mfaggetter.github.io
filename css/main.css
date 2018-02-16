@@ -84,6 +84,8 @@ figcaption span {
 	z-index: 10;
 }
 #primaryMenu div {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 }
 #primaryMenu ul {
@@ -330,6 +332,8 @@ body .section:first-of-type {
 
 .section {
 	padding: 0 0 30px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	
 	/*Flex-cont; defaults*/
 	display: flex;
@@ -620,6 +624,8 @@ button.clicked {
 footer {
 	padding: 0px;
 	background: rgb(216,216,216);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	
 	/*	Flex-cont: column, justify-space-around;*/
 	display: flex;
@@ -657,6 +663,19 @@ footer {
     -moz-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
+}
+
+#footer-top {
+	margin-bottom: 10px;
+	text-align: center;
+	display: block;
+	background: rgba(200,200,200,1);
+	border-top: 1px solid black;
+}
+
+#footer-top h2 {
+	margin-top:    10px;
+	margin-bottom: 10px;
 }
 
 #footer-content {
@@ -704,12 +723,6 @@ footer {
 .footer-card {
 	text-align: center;
 	line-height: 0.5;
-}
-
-#footer-top {
-	margin-bottom: 10px;
-	text-align: center;
-	display: block;
 }
 
 .footer-card .title {
