@@ -243,17 +243,14 @@ table li {
     -ms-flex-item-align: auto;
 }
 #processing-overview li {
-	padding: 5px;
-	text-indent: 4px;
+	padding: 4px;
 }
 /* -- PDF section -- */
-.section:last-of-type div {
-	justify-content: flex-start;
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
+.section:last-of-type .section-rightpanel p {
+/*	 Pad specification text */
+	width: 1000px;
 }
+
 #spec-pdf {
 	text-decoration: underline;
 }
