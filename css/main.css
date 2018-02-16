@@ -379,12 +379,14 @@ body .section:first-of-type {
 .section:nth-child(even):not(footer) {background-color:  rgba(243,243,243,0.2);}
 
 .section-leftpanel {
+	min-width: 28%;
+	
 	/*Flex-item; flex: 1 1 34%*/
-	flex: 1 1 34%;
+	flex: 1 1 auto;
 	-webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -webkit-flex: 1 1 34%;
-    -ms-flex: 1 1 34%;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
 	
 	align-self: auto;
     -webkit-align-self: auto;
@@ -401,11 +403,11 @@ body .section:first-of-type {
 	margin-right: 4%;
 
 	/*Flex-item; flex: 1 1 75%*/
-	flex: 1 1 75%;
+	flex: 1 1 auto;
 	-webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -webkit-flex: 1 1 75%;
-    -ms-flex: 1 1 75%;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
 	
 	align-self: auto;
     -webkit-align-self: auto;
