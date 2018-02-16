@@ -112,6 +112,11 @@ nav li:nth-child(1) { font-weight: 600; }
 	max-width: inherit;
 }
 
+/* CSS specific to IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#burbo-cont { display: none; }
+}
+
 #index-introduction {	
 	max-width: 850px;
 	/*Flex-cont: defaults */
