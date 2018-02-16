@@ -100,19 +100,12 @@ nav li:nth-child(1) { font-weight: 600; }
 	h2 { text-align: center; }
 }
 
-#index-introduction {
-	
-	/*Flex-item: 1 1 600px*/
-	flex: 1 1 600px;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -webkit-flex: 1 1 600px;
-    -ms-flex: 1 1 600px;
-	
-	align-self: auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-	
+
+#index-content .section-rightpanel {
+	max-width: 850px;
+}
+
+#index-introduction {	
 	max-width: 850px;
 	/*Flex-cont: defaults */
 	display: flex;
