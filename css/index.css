@@ -112,11 +112,6 @@ nav li:nth-child(1) { font-weight: 600; }
 	max-width: inherit;
 }
 
-/* CSS specific to IE10+ */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	#burbo-cont { display: none; }
-}
-
 #index-introduction {	
 	max-width: 850px;
 	/*Flex-cont: defaults */
@@ -297,7 +292,6 @@ nav li:nth-child(1) { font-weight: 600; }
 		-ms-flex-order: 0;
 	}
 	#index-introduction {
-		
 		max-width: 600px;
 		
 		flex-direction: column;
@@ -308,6 +302,11 @@ nav li:nth-child(1) { font-weight: 600; }
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 	}
+}
+
+/* CSS specific to IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#burbo-cont { display: none; }
 }
 
 /* Slideshow section */
