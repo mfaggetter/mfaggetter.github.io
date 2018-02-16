@@ -9,7 +9,7 @@ nav li:nth-child(2) { font-weight: 600; }
 /* -- Specification banner image -- */
 #spec-banner {
 	padding: 0;
-	margin-bottom: 20px;
+/*	margin-bottom: 20px;*/
 }
 #double-image-cont {
 	margin: 15px 0;

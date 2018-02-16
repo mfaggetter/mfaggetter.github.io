@@ -379,8 +379,12 @@ body .section:first-of-type {
 .section:nth-child(odd):not(footer) {background-color: rgba(190,190,190,0.3);}
 .section:nth-child(even):not(footer) {background-color:  rgba(243,243,243,0.2);}
 
-.section-leftpanel:not(#footer-top):not(#news-top) h2 {
-	max-width: 350px;
+
+/* Prevent oversized left-panels at max-width */
+@media screen and (min-width: 910px) {
+	.section-leftpanel:not(#footer-top):not(#news-top) h2 {
+		max-width: 330px;
+	}
 }
 
 .section-leftpanel:not(#footer-top):not(#news-top) {
