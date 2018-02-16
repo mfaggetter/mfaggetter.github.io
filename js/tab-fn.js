@@ -42,8 +42,8 @@ $(function() {
 	////// Configure tabbed content (publications.htm)
 	
 	//   Initialize first tab:
-	$("#articles").toggleClass('selected')
-	$("#button-articles").toggleClass('clicked');
+	$("#conferences").toggleClass('selected')
+	$("#button-conferences").toggleClass('clicked');
 	
 	// Add button events for Publications page
 	$("#button-articles").on('click', function() {
