@@ -268,6 +268,13 @@ nav li:nth-child(1) { font-weight: 600; }
 #burbo-cont img { width: inherit; }
 
 @media screen and (max-width: 1250px) {
+	
+	/* CSS for IE10+ */
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		#burbo-cont { display: none; }
+	}
+	
+	/*	CSS for all other browsers */
 	#burbo-cont {
 		width: 90%;
 		max-width: 400px;
@@ -302,11 +309,6 @@ nav li:nth-child(1) { font-weight: 600; }
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 	}
-}
-
-/* CSS specific to IE10+ */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	#burbo-cont { display: none; }
 }
 
 /* Slideshow section */
