@@ -6,6 +6,7 @@ html {
 	background: white;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
+	-moz-osx-font-smoothing: grayscale;
 }
 *, *:before, *:after {
 -webkit-box-sizing: inherit;
