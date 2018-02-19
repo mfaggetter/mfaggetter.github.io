@@ -397,6 +397,7 @@ nav li:nth-child(1) { font-weight: 600; }
 	-ms-overflow-y: hidden;
 	margin: 10px 5px 10px 5px;
 	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
 }
 
 .slideshow-thumbnails {
