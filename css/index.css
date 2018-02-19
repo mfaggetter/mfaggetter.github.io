@@ -385,31 +385,33 @@ nav li:nth-child(1) { font-weight: 600; }
 
 #navigation-border {
 	width: 100%;
-	height: 58px;
+	height: 50px;
 	text-align: center;
+	position: relative;
 }
 
-.slideshow-navigation {
-	height: 50px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	-ms-overflow-x: scroll;
-	-ms-overflow-y: hidden;
+#navigation-content {
+	height: 40px;
+	overflow: auto;
 	margin: 10px 5px 10px 5px;
 	white-space: nowrap;
-	-webkit-overflow-scrolling: touch;
-	position: relative;
+	
+	/* For auto-vertical shift to hide horizontal scrollbar	*/
+	position: absolute;
+	top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .slideshow-thumbnails {
 	display: inline-block;
-	height: 32px;
+	height: 35px;
 	opacity: 0.6;
 	margin: 0px 1px;
 	cursor: pointer;
 	border: 1px solid black;
 }
-
 .slideshow-thumbnails img { height: inherit; }
 
 /* Initialise first image */
