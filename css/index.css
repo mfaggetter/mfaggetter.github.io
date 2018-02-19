@@ -385,59 +385,25 @@ nav li:nth-child(1) { font-weight: 600; }
 
 #navigation-border {
 	width: 100%;
-	padding: 1.5px;
+	height: 50px;
+	text-align: center;
 }
 
 .slideshow-navigation {
 	height: 40px;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	-ms-overflow-x: hidden;
 	-ms-overflow-y: hidden;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	
-	/*Flex-cont: item align-center, justify-content center	*/
-	display: flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-
-    flex-direction: row;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-
-    flex-wrap: nowrap;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-	-webkit-box-lines: single;
-	-moz-box-lines: single;
-
-    justify-content: center;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-
-    align-content: center;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-
-    align-items: flex-start;
-    -webkit-box-align: start;
-    -moz-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
+	margin: 10px 5px 10px 5px;
+	white-space: nowrap;
 }
 
 .slideshow-thumbnails {
-	height: inherit;
+	display: inline-block;
+	height: 35px;
 	opacity: 0.6;
-	margin: 0px 2px;
+	margin: 0px 1px;
 	cursor: pointer;
 	border: 1px solid black;
 }
