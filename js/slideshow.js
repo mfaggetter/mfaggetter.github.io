@@ -1,9 +1,5 @@
 var current_slide = 0;
 
-var parent = document.getElementById('navigation-border');
-var child = document.getElementById('navigation-content');
-child.style.bottom = child.clientWidth - child.offsetWidth + "px";
-
 function scroll() {
 
 	// Wrap around end of slides if needed

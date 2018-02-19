@@ -392,16 +392,15 @@ nav li:nth-child(1) { font-weight: 600; }
 
 #navigation-content {
 	height: 40px;
-	overflow: auto;
-	margin: 10px 5px 10px 5px;
+	margin: 10px 5px 0px 5px;
 	white-space: nowrap;
-	
+	padding-bottom: 20px;
+
 	/* For auto-vertical shift to hide horizontal scrollbar	*/
-	position: absolute;
-	top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-ms-overflow-y: hidden;
+	-ms-overflow-x: hidden;
 }
 
 .slideshow-thumbnails {
