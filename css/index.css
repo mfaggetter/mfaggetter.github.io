@@ -390,14 +390,15 @@ nav li:nth-child(1) { font-weight: 600; }
 }
 
 .slideshow-navigation {
-	height: 40px;
-	overflow-x: hidden;
+	height: 50px;
+	overflow-x: scroll;
 	overflow-y: hidden;
-	-ms-overflow-x: hidden;
+	-ms-overflow-x: scroll;
 	-ms-overflow-y: hidden;
 	margin: 10px 5px 10px 5px;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
+	position: relative;
 }
 
 .slideshow-thumbnails {
